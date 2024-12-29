@@ -24,6 +24,12 @@ export const NoteList = ({availableTags, notes}:NoteListProps) => {
     <div>
 
       {/* Navigatioin Pane */}
+      <div className="flex justify-center gap-5">
+        <p>
+          MarkDown layout is not working. Will be fixed soon.
+        </p>
+        <a href="https://github.com/nishikantraj/AdvanceNoteApp" className="underline text-red-600">Source code</a>
+      </div>
       <div id="navigationPane" className="flex">
           <h1 className="text-4xl font-bold flex-1">Notes</h1>
           <div className="h-auto w-1/4 flex justify-around items-center">
