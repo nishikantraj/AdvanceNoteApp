@@ -1,0 +1,29 @@
+.card {
+    display: block;
+    transition: translate ease-in-out 100ms, box-shadow ease-in-out 100ms;
+  }
+  
+  .card:hover,
+  .card:focus {
+    translate: 0 -5px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .markdown {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  .markdown h1,
+  .markdown h2,
+  .markdown h3 {
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  
+  .markdown ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+  }
+  
